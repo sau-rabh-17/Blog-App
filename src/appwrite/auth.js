@@ -3,11 +3,9 @@ import { Client, Account, ID } from "appwrite";
 
 export class AuthService {
     client = new Client();
-<<<<<<< HEAD
+
     account;
-=======
-    accoutn;
->>>>>>> a605d7a89fc10602d03ce817f6b8e60c90dcc4a9
+
 
     constructor(){
         this.client
